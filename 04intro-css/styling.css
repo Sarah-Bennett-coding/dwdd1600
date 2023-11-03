@@ -1,0 +1,163 @@
+body {
+    font-family: "Source-serif", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*header*/
+
+header {
+    background-color: #f2f2f0;
+    padding: 1rem 2vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #3b668c;
+}
+
+header p {
+    color: #3b668c;
+    margin: 0;
+    letter-spacing: .5px;
+}
+
+/*nav*/
+
+nav {
+    background-color: #121d26;
+}
+
+nav ul {
+    
+    display: flex;
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #b4ced9;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav li.active a {
+    background-color: #739cbf;
+    color: #121d26;
+}
+
+nav a:hover {
+    color: #f2f2f0;
+}
+
+/*img*/
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+/*main*/
+
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #121d26;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+main h2 {
+    color: #024873;
+    margin-bottom: 1.1rem;
+}
+
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+
+main ul {
+    padding: .5rem 4vw;
+    background-color: #efefef;
+}
+
+main ul li {
+    list-style-type:square;
+}
+
+main dl dt {
+    color: #3b668c;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #121d26;
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #3b668c;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #024873;
+    border-radius: .5rem;
+}
+
+main a {
+    color: #024873;
+}
+
+main a:hover {
+    color: #121d26
+}
+
+/*lists */
+dl {
+    background-color: #eaeaea;
+    padding: .5rem 4vw;
+}
+
+#list {
+    padding: .5rem 4vw;
+    background-color: #b4ced9;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #739cbf;
+    list-style-type:disc;
+}
+
+/*footer*/
+
+footer {
+    background-color: #121d26;
+    text-align: center;
+    color: #eaeaea;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+
+footer a {
+    color: #739cbf;
+}
